@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BannerLive — Hỗ trợ / Support</title>
+<style>
+  :root { --brand:#0A84FF; --ink:#1c1c1e; --muted:#6b6b70; --line:#e6e6ea; --bg:#f7f8fa; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:32px 20px 64px; }
+  header { display:flex; align-items:center; gap:14px; margin-bottom:8px; }
+  .logo { width:46px; height:46px; border-radius:11px; flex:0 0 auto;
+    background:linear-gradient(135deg,#0A84FF,#BF5AF2); color:#fff; font-weight:800;
+    display:flex; align-items:center; justify-content:center; font-size:17px; letter-spacing:.5px; }
+  h1 { font-size:26px; margin:0; }
+  .updated { color:var(--muted); font-size:14px; margin:2px 0 22px; }
+  .toggle { display:inline-flex; background:#fff; border:1px solid var(--line);
+    border-radius:999px; padding:3px; margin-bottom:26px; }
+  .toggle button { border:0; background:none; padding:7px 16px; border-radius:999px;
+    font-size:14px; font-weight:600; color:var(--muted); cursor:pointer; }
+  .toggle button.active { background:var(--brand); color:#fff; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:16px;
+    padding:8px 24px 24px; box-shadow:0 1px 3px rgba(0,0,0,.04); }
+  h2 { font-size:18px; margin:26px 0 8px; }
+  p, li { font-size:15.5px; color:#2b2b30; }
+  ul { padding-left:20px; }
+  a { color:var(--brand); }
+  .lead { font-size:16px; }
+  .contact { display:flex; align-items:center; gap:14px; flex-wrap:wrap;
+    background:#eef6ff; border:1px solid #d4e7ff; border-radius:14px; padding:16px 18px; margin:12px 0 4px; }
+  .contact .mail { font-size:16px; font-weight:700; color:#1c4e80; }
+  .btn { display:inline-block; background:var(--brand); color:#fff; text-decoration:none;
+    font-weight:600; font-size:15px; padding:10px 18px; border-radius:11px; }
+  .q { font-weight:700; margin:18px 0 2px; color:var(--ink); }
+  .note { background:#fff7e6; border:1px solid #ffe2a8; border-radius:12px;
+    padding:12px 16px; font-size:14px; color:#7a5200; margin-top:16px; }
+  footer { color:var(--muted); font-size:13px; text-align:center; margin-top:28px; }
+  [hidden] { display:none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">BL</div>
+    <div>
+      <h1>BannerLive</h1>
+      <div class="updated">Trung tâm hỗ trợ / Support Center</div>
+    </div>
+  </header>
+
+  <div class="toggle" role="tablist">
+    <button id="btn-vi" class="active" onclick="show('vi')">Tiếng Việt</button>
+    <button id="btn-en" onclick="show('en')">English</button>
+  </div>
+
+  <!-- ===================== TIẾNG VIỆT ===================== -->
+  <section id="vi" class="card">
+    <p class="lead">Cảm ơn bạn đã dùng <strong>BannerLive</strong>. Nếu bạn cần trợ giúp, gặp lỗi hay có góp ý, hãy liên hệ với chúng tôi.</p>
+
+    <h2>Liên hệ</h2>
+    <div class="contact">
+      <span class="mail">d.hoang.2099@gmail.com</span>
+      <a class="btn" href="mailto:d.hoang.2099@gmail.com?subject=Hỗ trợ BannerLive">Gửi email</a>
+    </div>
+    <p>Chúng tôi thường phản hồi trong vòng <strong>1-3 ngày làm việc</strong>. Để được hỗ trợ nhanh hơn, vui lòng cho biết mẫu iPhone, phiên bản iOS và mô tả ngắn gọn vấn đề.</p>
+
+    <h2>Câu hỏi thường gặp</h2>
+
+    <p class="q">Làm sao để mở khóa BannerLive Plus?</p>
+    <p>Nhấn nút <strong>Nhiều màn hình</strong> hoặc <strong>Cờ</strong> để mở màn hình nâng cấp. Bạn có thể <strong>dùng thử miễn phí 7 ngày</strong> (một lần trên mỗi máy) hoặc mua một lần để dùng vĩnh viễn.</p>
+
+    <p class="q">Đã mua nhưng máy mới chưa mở khóa?</p>
+    <p>Mở màn hình nâng cấp và nhấn <strong>Khôi phục</strong> (Restore). Giao dịch gắn với tài khoản Apple của bạn nên sẽ tự khôi phục khi đăng nhập cùng Apple ID.</p>
+
+    <p class="q">Tính năng Ghép nhiều màn hình hoạt động thế nào?</p>
+    <p>Cần <strong>từ 2 iPhone trở lên</strong> đặt gần nhau. Các máy kết nối ngang hàng qua Wi-Fi/Bluetooth (không cần internet), nên một dòng chữ chạy liền mạch qua tất cả màn hình. Lần đầu, iOS sẽ hỏi quyền <strong>Mạng nội bộ</strong> - hãy đồng ý.</p>
+
+    <p class="q">Nhập bằng giọng nói không nhận?</p>
+    <p>Hãy cấp quyền <strong>Micro</strong> và <strong>Nhận dạng giọng nói</strong> cho ứng dụng. Một số ngôn ngữ (ví dụ tiếng Việt) cần <strong>kết nối internet</strong> để nhận dạng; tiếng Anh và vài ngôn ngữ khác chạy được ngoại tuyến.</p>
+
+    <p class="q">Nền nhảy theo nhạc cần gì?</p>
+    <p>Hiệu ứng nền theo nhạc dùng micro để phân tích âm thanh xung quanh <strong>ngay trên máy</strong> (không ghi âm, không gửi đi đâu). Cần cấp quyền micro khi bạn bật hiệu ứng này.</p>
+
+    <p style="margin-top:22px">Xem thêm <a href="privacy-policy.html">Chính sách quyền riêng tư</a>.</p>
+  </section>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <section id="en" class="card" hidden>
+    <p class="lead">Thanks for using <strong>BannerLive</strong>. If you need help, hit a bug, or have feedback, please get in touch.</p>
+
+    <h2>Contact</h2>
+    <div class="contact">
+      <span class="mail">d.hoang.2099@gmail.com</span>
+      <a class="btn" href="mailto:d.hoang.2099@gmail.com?subject=BannerLive Support">Send email</a>
+    </div>
+    <p>We usually reply within <strong>1-3 business days</strong>. For faster help, please include your iPhone model, iOS version, and a short description of the issue.</p>
+
+    <h2>Frequently asked questions</h2>
+
+    <p class="q">How do I unlock BannerLive Plus?</p>
+    <p>Tap the <strong>Multi-screen</strong> or <strong>Flag</strong> button to open the upgrade screen. You can <strong>try it free for 7 days</strong> (once per device) or buy it once for lifetime access.</p>
+
+    <p class="q">I bought it but a new device isn't unlocked?</p>
+    <p>Open the upgrade screen and tap <strong>Restore</strong>. Your purchase is tied to your Apple Account, so it restores automatically when you sign in with the same Apple ID.</p>
+
+    <p class="q">How does Screen Merge (multi-screen) work?</p>
+    <p>It needs <strong>2 or more iPhones</strong> placed side by side. They connect peer-to-peer over Wi-Fi/Bluetooth (no internet), so one line of text scrolls seamlessly across every screen. On first use, iOS asks for <strong>Local Network</strong> permission - please allow it.</p>
+
+    <p class="q">Voice input isn't recognizing me?</p>
+    <p>Grant the app <strong>Microphone</strong> and <strong>Speech Recognition</strong> permissions. Some languages (e.g. Vietnamese) need an <strong>internet connection</strong> to transcribe; English and several others work offline.</p>
+
+    <p class="q">What does the music-reactive background need?</p>
+    <p>The music-reactive background uses the microphone to analyze ambient sound <strong>on your device</strong> (never recorded, never sent anywhere). Grant microphone access when you turn the effect on.</p>
+
+    <p style="margin-top:22px">See also our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+  </section>
+
+  <footer>© 2026 BannerLive. All rights reserved.</footer>
+</div>
+
+<script>
+  function show(lang){
+    document.getElementById('vi').hidden = (lang !== 'vi');
+    document.getElementById('en').hidden = (lang !== 'en');
+    document.getElementById('btn-vi').classList.toggle('active', lang === 'vi');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    document.documentElement.lang = lang;
+  }
+</script>
+</body>
+</html>
